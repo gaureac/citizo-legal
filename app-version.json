@@ -1,7 +1,13 @@
 {
-  "_readme": "Read by the Citizo app (France Edition, com.gaureac.citizo.fr) at most once a day. Bump latestVersion only once a release is downloadable on the App Store, never at submission: it means the newest version a user can install. Give releaseNotes one entry per Interface language (fr, en, ar, ru, prs; en is the fallback), lifted from the store's What's New. Only if a shipped release turns out to be broken: set minimumSupportedVersion above it, or required:true, and every affected build asks to update on launch. It is a prompt, never a lock. Unknown fields are ignored by the app, so this note is safe to keep.",
+  "_readme": "Read by the Citizo app (France Edition, com.gaureac.citizo.fr) at most once a day. Bump latestVersion only once a release is downloadable on the App Store, never at submission: it means the newest version a user can install. Give releaseNotes one entry per Interface language (fr, en, ar, ru, prs; en is the fallback), lifted from the store's What's New. The 1.0.0 notes are never shown (no build is older); they are there so the format can be checked in every language. Only if a shipped release turns out to be broken: set minimumSupportedVersion above it, or required:true, and every affected build asks to update on launch. It is a prompt, never a lock. Unknown fields are ignored by the app, so this note is safe to keep.",
   "latestVersion": "1.0.0",
   "minimumSupportedVersion": "1.0.0",
   "required": false,
-  "releaseNotes": {}
+  "releaseNotes": {
+    "fr": "• Première version : les 5 thèmes de l’examen, des examens blancs de 40 questions en 45 min, comme le jour J, et vos erreurs à revoir jusqu’à être maîtrisées",
+    "en": "• First release: the 5 themes of the exam, mock exams of 40 questions in 45 min, as on exam day, and your mistakes coming back until you master them",
+    "ar": "• الإصدار الأول: المواضيع الخمسة للامتحان، وامتحانات تجريبية من 40 سؤالًا في 45 دقيقة، كما في يوم الامتحان، وأخطاؤك تعود إليك حتى تتقنها",
+    "ru": "• Первая версия: 5 тем экзамена, пробные экзамены из 40 вопросов за 45 мин, как на экзамене, и ошибки, которые возвращаются, пока не выучите",
+    "prs": "• نسخهٔ نخست: 5 موضوع امتحان، امتحان‌های آزمایشی با 40 سوال در 45 دقیقه، مانند روز امتحان، و اشتباه‌هایی که تا آن‌ها را نیاموخته‌اید، دوباره می‌آیند"
+  }
 }
