@@ -18,3 +18,12 @@ Keep the pages true to the app: no «à vie» / «lifetime» for the one-time pa
 trial claim beyond the conditional clause, and a «last updated» date that changes with
 any edit. If a release changes how data is handled, update the Privacy Policy and the
 App Privacy answers in App Store Connect before it ships.
+
+## app-version.json
+
+Read by the app at most once a day (https://gaureac.github.io/citizo-legal/app-version.json),
+the same contract as Receipt Scanner's. **Bump `latestVersion` only once a release is
+downloadable on the App Store**, never at submission, with `releaseNotes` in every
+Interface language (`fr`, `en`, `ar`, `ru`, `prs`; `en` is the fallback). Only for a
+broken release: raise `minimumSupportedVersion` above it, or set `required: true`. Both
+make affected builds ask to update on launch; it is a prompt, never a lock.

@@ -1,0 +1,7 @@
+{
+  "_readme": "Read by the Citizo app (France Edition, com.gaureac.citizo.fr) at most once a day. Bump latestVersion only once a release is downloadable on the App Store, never at submission: it means the newest version a user can install. Give releaseNotes one entry per Interface language (fr, en, ar, ru, prs; en is the fallback), lifted from the store's What's New. Only if a shipped release turns out to be broken: set minimumSupportedVersion above it, or required:true, and every affected build asks to update on launch. It is a prompt, never a lock. Unknown fields are ignored by the app, so this note is safe to keep.",
+  "latestVersion": "1.0.0",
+  "minimumSupportedVersion": "1.0.0",
+  "required": false,
+  "releaseNotes": {}
+}
