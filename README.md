@@ -9,6 +9,7 @@ GitHub Pages at https://gaureac.github.io/citizo-legal/.
 | Support | `index.html` | `en/index.html` |
 | Privacy | `privacy.html` | `en/privacy.html` |
 | Terms (EULA) | `terms.html` | `en/terms.html` |
+| Data deletion (Play Console's deletion URL) | `delete-data.html` | `en/delete-data.html` |
 
 The app opens the French pages for the French interface and the English ones for every
 other interface language. App Store Connect uses the same URLs (privacy policy URL per
