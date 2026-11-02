@@ -46,7 +46,7 @@ a { color: var(--primary); }
 .lead { font-size: 17px; }
 .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 4px 18px; }
 .note { background: var(--primary-soft); border-radius: 14px; padding: 4px 18px; }
-ul { padding-left: 22px; }
+ul, ol { padding-left: 22px; }
 li { margin: 4px 0; }
 table { width: 100%; border-collapse: collapse; font-size: 15px; }
 th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--border); }
